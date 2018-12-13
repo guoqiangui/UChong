@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/play-video.css"/>
+	</head>
+
+	<body>
+		<div class="mui-content">
+			<!-- 视频播放 -->
+			<div class="video-wrapper">
+				<video src="../videos/video1.mp4" controls="controls"></video>
+			</div>
+			<!-- tab栏（简介和评论） -->
+			<!-- 选项卡导航部分 -->
+			<div class="video-nav-tab">
+				<ul>
+					<li><a href="javascript:;" class="active"><span>简介</span></a></li>
+					<li><a href="javascript:;"><span>评论</span></a></li>
+				</ul>
+			</div>
+			<!-- 内容 -->
+			<div class="video-slider mui-slider">
+				<div class="mui-slider-group">
+					<!-- 简介 -->
+					<div class="mui-slider-item video-summary">
+						<!-- 作者 -->
+						<div class="video-author">
+							<!-- 头像 -->
+							<div class="video-author-icon"></div>
+							<!-- 昵称 -->
+							<div class="video-author-nickname">不求人</div>
+							<!-- 粉丝数量 -->
+							<div class="video-author-fans">1.1万粉丝</div>
+						</div>
+						<!-- 标题 -->
+						<h4>未来巨星？塔图姆17~18赛季集锦</h4>
+						<!-- 视频数据 -->
+						<div class="video-data">
+							<!-- 播放量 -->
+							<span class="view">
+								<i class="mui-icon iconfont icon-shipin"></i>2.1万
+							</span>
+							<!-- 评论数量 -->
+							<span class="comment">
+								<i class="mui-icon iconfont icon-xiaoxi"></i>500
+							</span>
+						</div>
+						<!-- 其他图标 -->
+						<div class="video-other-icons">
+							<i class="mui-icon iconfont icon-dianzan"></i>  
+							<i class="mui-icon iconfont icon-cai"></i>
+							<i class="mui-icon iconfont icon-dashang"></i>
+							<i class="mui-icon iconfont icon-shoucang"></i>
+							<i class="mui-icon iconfont icon-fenxiang"></i>
+						</div>
+						<!-- 相关视频 -->
+						<div class="video-related-videos">
+							<div class="related-videos-item">
+								<!-- 视频封面 -->
+								<div class="video-cover"></div>
+								<!-- 标题 -->
+								<h4>【科普】为什么养狗需要打疫苗</h4>
+							</div>
+						</div>
+					</div>
+					
+					<div class="mui-slider-item">评论内容</div>
+				</div>
+			</div>
+		</div>
+		
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init();
+		</script>
+		<script src="../js/play-video.js"></script>
+	</body>
+
+</html>

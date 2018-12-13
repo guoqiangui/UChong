@@ -1,0 +1,104 @@
+/* css初始化 */
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;} 
+body{background:#fff;color:#333;font-size:16px;font-family:"SimSun","宋体","Arial Narrow";} 
+ 
+ul,ol{list-style-type:none;} 
+select,input,img,select{vertical-align:middle;} 
+ 
+a{text-decoration:none;} 
+a:link {color:#333;} 
+a:visited{color:#333;} 
+
+
+/* 版心 */
+.w {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* 首页顶部 */
+.top {
+	width: 100%;
+	background-color: #89C348;
+	display: flex;
+	padding-top: 10px;
+}
+.top .icon-yonghu {
+	flex: 1;
+	font-size: 30px;
+	text-align: center;
+}
+.top .mui-search {
+	flex: 8;
+}
+.top .icon-xiazai {
+	flex: 1;
+	font-size: 25px;
+	text-align: center;
+}
+.top .icon-xiaoxi {
+	flex: 1;
+	font-size: 30px;
+	text-align: center;
+}
+.top i {
+	color: #fff;
+}
+
+/* 顶部导航栏 */
+.top-nav-tab {
+	background-color: #fff;
+}
+.top-nav-tab ul {
+	width: 350px;
+	height: 30px;
+	margin: 0 auto;
+}
+.top-nav-tab li {
+	float: left;
+}
+.top-nav-tab a {
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	padding: 0px 10px;
+}
+/* 激活样式 */
+.top-nav-tab .active {
+	border-bottom: 2px solid #89C348;
+	color: #89C348;
+}
+
+/* 视频 */
+.video-wrapper {
+	margin: 10px 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+/* 视频盒子 */
+.video-wrapper .video-item {
+	width: 45%;
+	height: 250px;
+	margin: 10px;
+	background-color: #fff;
+	border: 1px solid #aaa;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;		/* 改变主轴方向 */
+	justify-content: space-between;
+}
+.video-item .video-cover {
+	margin: 10px;
+	height: 60%;
+	background-image: url(../images/cover1.jpeg);
+	background-size: cover;		/* 始终覆盖满盒子 */
+}
+.video-item h4 {
+	margin: 10px;
+}
+.video-item .video-author {
+	margin: 10px;
+	color: #666;
+}
+
