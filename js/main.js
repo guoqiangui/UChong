@@ -29,6 +29,18 @@ document.querySelector(".tab-content-slide").addEventListener("slide", function 
 	tabs[curIndex].classList.add("active");
 });
 
-
+// 点击视频项打开视频播放页面
+mui.plusReady(function () {
+	mui(".video-wrapper").on("tap", ".video-item", function () {
+		// extras可以页面传值
+		mui.openWindow({
+			url: "../pages/play-video.html", 
+			id: "play-video.html", 
+			extras: {
+				
+			}
+		});
+	});
+});
 
 

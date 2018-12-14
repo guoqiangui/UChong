@@ -27,3 +27,18 @@ document.querySelector(".video-slider").addEventListener("slide", function (e) {
 	}
 	tabs[curIndex].classList.add("active");
 });
+
+// 点击相关视频项跳转到视频播放页
+mui.plusReady(function () {
+	mui(".video-related-videos").on("tap", ".related-videos-item", function () {
+		// extras可以页面传值，需要重新打开本页
+		mui.openWindow({
+			url: "play-video.html", 
+			id: "play-video.html", 
+			createNew: true, 
+			extras: {
+				
+			},
+		});
+	});
+});
