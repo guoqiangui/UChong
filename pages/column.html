@@ -6,17 +6,57 @@
 		<title></title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<link href="../css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="../css/column.css"/>
 	</head>
 
 	<body>
 		<div class="mui-content">
-			<h1 class="mui-title">专栏</h1>
+			<!-- 顶部 -->
+			<div class="top">
+				<!-- 返回首页 -->
+				<a href="javascript:;"><i class="mui-icon mui-icon-back"></i>专栏</a>
+				<!-- 顶部分类导航 -->
+				<div class="top-nav">
+					<ul>
+						<li class="active">精华</li>
+						<li>分类</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 所有专栏项 -->
+			<div class="column-items">
+				<!-- 单个专栏 -->
+				<div class="column-item">
+					<!-- 作者 -->
+					<div class="column-item-author">
+						<!-- 头像 -->
+						<div class="author-icon"></div>
+						<!-- 昵称 -->
+						<div class="author-nickname">大爱宠物猫狗控</div>
+						<!-- 粉丝数量 -->
+						<div class="author-fans">22.3w</div>
+						<!-- 个性签名 -->
+						<p>执子之手，铲屎到老</p>
+						<!-- 标签 -->
+						<a href="javascript:;">科普达人</a>
+					</div>
+					<!-- 缩略图 -->
+					<div class="column-item-pics">
+						<div class="column-item-pics1"></div>
+						<div class="column-item-pics2"></div>
+						<div class="column-item-pics3"></div>
+					</div>
+				</div>
+				<div class="column-item"></div>
+				<div class="column-item"></div>
+			</div>
 		</div>
 		
 		<script src="../js/mui.min.js"></script>
 		<script type="text/javascript">
-			mui.init()
+			mui.init();
 		</script>
+		<script src="../js/column.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 
 </html>
