@@ -79,3 +79,18 @@ a:visited{color:#333;}
 	left: 60px;
 	top: 30px;
 }
+.column-item-author a {
+	color: #0000ff;
+}
+/* 专栏缩略图 */
+.column-item-pics {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 5px;
+}
+.column-item-pics-small {
+	width: 30%;
+	height: 80px;
+	background: url(../images/cover2.jpg);
+	background-size: cover;    
+}

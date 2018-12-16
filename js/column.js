@@ -12,3 +12,18 @@ for(var i=0 ; i<tabs.length ; i++) {
 		this.classList.add("active");
 	});
 }
+
+// 点击专栏,进入专栏详情页 
+mui.plusReady(function () {
+	mui(".column-items").on("tap", ".column-item", function () {
+		// extras可以页面传值，需要重新打开本页
+		mui.openWindow({
+			url: "column-detail.html", 
+			id: "column-detail.html", 
+			createNew: true, 
+			extras: {
+				
+			},
+		});
+	});
+});
