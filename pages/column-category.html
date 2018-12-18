@@ -6,27 +6,32 @@
 		<title></title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<link href="../css/mui.min.css" rel="stylesheet" />
-		<link rel="stylesheet" type="text/css" href="../css/column.css"/>
+		<link rel="stylesheet" href="../css/column-category.css">
 	</head>
 
 	<body>
 		<div class="mui-content">
 			<!-- 顶部 -->
 			<div class="top">
+				<!-- 返回专栏首页按钮 -->
+				<a href="javascript:;" class="mui-action-back">
+					<i class="mui-icon mui-icon-back"></i>专栏
+				</a>
 				<!-- 顶部分类导航 -->
 				<div class="top-nav">
 					<ul>
-						<li class="active">精华</li>
-						<li class="category">分类</li>
+						<li class="active">达人</li>
+						<li>专家</li>
+						<li>医生</li>
+						<li>从业者</li>
 					</ul>
 				</div>
 			</div>
-			<!-- 所有专栏项（即所有作者） -->
-			<div class="column-items">
-				<!-- 单个专栏 -->
-				<div class="column-item">
-					<!-- 作者 -->
-					<div class="column-item-author">
+			<!-- 栏目作者 -->
+			<div class="column-authors">
+				<div class="column-author-item">
+					<!-- 作者基本信息 -->
+					<div class="column-author-base">
 						<!-- 头像 -->
 						<div class="author-icon"></div>
 						<!-- 昵称 -->
@@ -39,14 +44,14 @@
 						<a href="javascript:;">科普达人</a>
 					</div>
 					<!-- 缩略图 -->
-					<div class="column-item-pics">
-						<div class="column-item-pics-small column-item-pics1"></div>
-						<div class="column-item-pics-small column-item-pics2"></div>
-						<div class="column-item-pics-small column-item-pics3"></div>
+					<div class="column-author-pics">
+						<div class="column-author-pics-small column-author-pics1"></div>
+						<div class="column-author-pics-small column-author-pics2"></div>
+						<div class="column-author-pics-small column-author-pics3"></div>
 					</div>
 				</div>
-				<div class="column-item"></div>
-				<div class="column-item"></div>
+				<div class="column-author-item"></div>
+				<div class="column-author-item"></div>
 			</div>
 		</div>
 		
@@ -54,7 +59,7 @@
 		<script type="text/javascript">
 			mui.init();
 		</script>
-		<script src="../js/column.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/column-category.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 
 </html>

@@ -9,6 +9,7 @@ a{text-decoration:none;}
 a:link {color:#333;} 
 a:visited{color:#333;} 
 
+
 /* 顶部 */
 .top {
 	width: 100%;
@@ -17,6 +18,9 @@ a:visited{color:#333;}
 	color: #fff;
 	position: fixed;
 	z-index: 5;
+}
+.top>a {
+	color: #fff;
 }
 .top-nav {
 	width: 100%;
@@ -37,14 +41,14 @@ a:visited{color:#333;}
 	border-bottom: 4px solid #fff;
 }
 
-/* 专栏项 */
-.column-items {
+/* 专栏作者 */
+.column-authors {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
-.column-item {
+.column-author-item {
 	width: 90%;
 	height: 200px;
 	background-color: #fff;
@@ -55,10 +59,10 @@ a:visited{color:#333;}
 	margin: 10px 0;
 	padding: 10px;
 }
-.column-item-author {
+.column-author-base {
 	position: relative;
 }
-.column-item-author .author-icon {
+.column-author-base .author-icon {
 	width: 50px;
 	height: 50px;
 	border: 1px solid #aaa;
@@ -66,26 +70,27 @@ a:visited{color:#333;}
 	background: url(../images/cover2.jpg);
 	background-size: cover;
 }
-.column-item-author .author-nickname {
+.column-author-base .author-nickname {
 	position: absolute;
 	left: 60px;
 	top: 0px;
+	color: #000;
 }
-.column-item-author .author-fans {
+.column-author-base .author-fans {
 	position: absolute;
 	left: 60px;
 	top: 30px;
 }
-.column-item-author a {
+.column-author-base a {
 	color: #0000ff;
 }
 /* 专栏缩略图 */
-.column-item-pics {
+.column-author-pics {
 	display: flex;
 	justify-content: space-around;
 	margin-top: 5px;
 }
-.column-item-pics-small {
+.column-author-pics-small {
 	width: 30%;
 	height: 80px;
 	background: url(../images/cover2.jpg);
