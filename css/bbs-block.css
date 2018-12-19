@@ -1,0 +1,41 @@
+body {
+	background-color: #fff;
+}
+.mui-content {
+	background-color: #fff;
+}
+ul.blocks {
+	width: 100px;
+	height: 100vh;	/* 可以填充整个屏幕高度 */
+	background-color: #ddd;
+	float: left;
+}
+ul.blocks li {
+	width: 100px;
+	height: 60px;
+	line-height: 60px;
+	padding-left: 10px;
+}
+ul.blocks li.active {
+	background-color: #fff;
+	border-left: 4px solid #89C348;
+}
+
+/* 对应的版块 */
+.related-blocks {
+	margin-left: 100px;
+	padding: 20px;
+}
+.related-blocks .block-icon {
+	width: 60px;
+	height: 60px;
+	border: 1px solid #aaa;
+	border-radius: 50%;
+	background: url(../images/cover2.jpg);
+	background-size: cover;
+	float: left;
+	margin-right: 5px;
+}
+.related-blocks .block-name {
+	font-weight: 700;
+}
