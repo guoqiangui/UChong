@@ -26,6 +26,9 @@ ul.blocks li.active {
 	margin-left: 100px;
 	padding: 20px;
 }
+.related-blocks li {
+	margin-bottom: 30px;
+}
 .related-blocks .block-icon {
 	width: 60px;
 	height: 60px;

@@ -12,3 +12,18 @@ for(var i=0 ; i<tabs.length ; i++) {
 		this.classList.add("active");
 	});
 }
+
+// 点击某个版块,跳到相应版块页
+mui.plusReady(function () {
+	mui(".related-blocks").on("tap", "li", function () {
+		// extras可以页面传值，需要重新打开本页
+		mui.openWindow({
+			url: "bbs-recommend.html", 
+			id: "bbs-recommend.html", 
+			createNew: true, 
+			extras: {
+				
+			},
+		});
+	});
+});
