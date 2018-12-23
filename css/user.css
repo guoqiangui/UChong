@@ -1,0 +1,64 @@
+/* 顶部 */
+.top {
+	height: 120px;
+	background-color: #89C348;
+	display: flex;
+	align-items: center;
+}
+/* 登录按钮 */
+.login-btn {
+	margin-left: 10px;
+}
+/* 头像 */
+.top .user-icon {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #aaa;
+	border-radius: 50%;
+	background: url(../images/default-icon.jpg);
+	background-size: cover;
+	margin-bottom: 5px;
+}
+.login-btn span {
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 5px;
+}
+
+/* 菜单部分 */
+.menu {
+	margin-top: 20px;
+}
+.menu li {
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+	margin: 0 10px;
+}
+.menu li:nth-child(1) {
+	background-color: #ddd;
+	border-radius: 20px;
+	color: #89C348;
+}
+.menu li i {
+	font-size: 25px;
+	margin-right: 20px;
+}
+
+/* 底部 */
+.bottom {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+}
+.bottom .options {
+	float: left;
+	margin-left: 10px;
+}
+.bottom .night-mode {
+	float: right;
+	margin-right: 10px;
+}
+.bottom i {
+	font-size: 20px;
+}

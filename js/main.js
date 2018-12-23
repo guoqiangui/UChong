@@ -29,13 +29,25 @@ document.querySelector(".tab-content-slide").addEventListener("slide", function 
 	tabs[curIndex].classList.add("active");
 });
 
-// 点击视频项打开视频播放页面
 mui.plusReady(function () {
+	// 点击视频项打开视频播放页面
 	mui(".video-wrapper").on("tap", ".video-item", function () {
 		// extras可以页面传值
 		mui.openWindow({
 			url: "../pages/play-video.html", 
 			id: "play-video.html", 
+			extras: {
+				
+			}
+		});
+	});
+	
+	// 点击用户进入用户界面
+	document.querySelector(".top i.icon-yonghu").addEventListener("tap", function () {
+		// extras可以页面传值
+		mui.openWindow({
+			url: "../pages/user.html", 
+			id: "user.html", 
 			extras: {
 				
 			}

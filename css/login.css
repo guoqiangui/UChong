@@ -1,0 +1,35 @@
+/* 头部 */
+header.mui-bar {
+	background-color: #89C348;
+}
+header .mui-title {
+	color: #fff;
+}
+header .mui-icon {
+	color: #fff;
+}
+
+/* 表单部分 */
+form {
+	width: 80%;
+	margin: 0 auto;
+}
+.mui-input-row label {
+	width: auto;
+	color: #89C348;
+}
+form input.mui-input-clear,
+form input.mui-input-password
+{
+	border-bottom: 1px solid #89C348;
+	width: 80%;
+}
+.mui-button-row button:nth-child(1) {
+	border-color: #89C348;
+	color: #89C348;
+}
+.mui-button-row button:nth-child(2) {
+	background-color: #89C348;
+	color: #fff;
+}
+ 

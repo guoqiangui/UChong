@@ -13,9 +13,15 @@
 
 .icon-shoucang:before { content: "\f0144"; }
 
+.icon-kefu:before { content: "\e635"; }
+
 .icon-lanmu:before { content: "\e61c"; }
 
+.icon-lishijilu-copy-copy:before { content: "\e622"; }
+
 .icon-dianzan:before { content: "\e60c"; }
+
+.icon-wodehuiyuan0101:before { content: "\e61b"; }
 
 .icon-shipinbofangyingpian2:before { content: "\e78e"; }
 
@@ -23,15 +29,23 @@
 
 .icon-tianjia:before { content: "\e64f"; }
 
-.icon-shequ:before { content: "\e61b"; }
+.icon-shequ:before { content: "\e61d"; }
+
+.icon-remenhuodong:before { content: "\e750"; }
 
 .icon-dashang:before { content: "\e672"; }
+
+.icon-xiazaihuancun:before { content: "\e6ba"; }
+
+.icon-yejianmoshi:before { content: "\e6c1"; }
 
 .icon-xiazai:before { content: "\e519"; }
 
 .icon-yonghu:before { content: "\e616"; }
 
 .icon-xiaoxi:before { content: "\e644"; }
+
+.icon-shezhi:before { content: "\e61e"; }
 
 .icon-tubiaozhizuo-:before { content: "\e610"; }
 
