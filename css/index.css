@@ -1,16 +1,16 @@
 .bottom-tab {
-	background-color: #89C348;
+	background-color: #E8E8E8;
 }
 .bottom-tab .mui-tab-item {
 	color: #000;
 }
 .bottom-tab .mui-tab-item.mui-active {
-	color: #fff;
+	color: #09B72E;
 }
 .mui-tab-item .fa-youtube-play {
 	position: absolute;
 	top: 5px;
 }
 .header {
-	background-color: #89C348;
+	background-color: #09B72E;
 }

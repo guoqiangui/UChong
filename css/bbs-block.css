@@ -18,20 +18,28 @@ ul.blocks li {
 }
 ul.blocks li.active {
 	background-color: #fff;
-	border-left: 4px solid #89C348;
+	border-left: 4px solid #09B72E;
 }
 
 /* 对应的版块 */
 .related-blocks {
 	margin-left: 100px;
-	padding: 20px;
+	padding: 10px;
+	font-size: 16px;
+}
+.related-blocks ul {
 }
 .related-blocks li {
+	float: left;
+	width: 50%;
 	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .related-blocks .block-icon {
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 	border: 1px solid #aaa;
 	border-radius: 50%;
 	background: url(../images/cover2.jpg);

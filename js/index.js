@@ -12,7 +12,7 @@ mui.plusReady(function () {
 		// 这里参数分别为子页url、子页id、子页窗口的样式
 		var sub = plus.webview.create(subpages[i], subpages[i], {
 			top: "0px",
-			bottom: "45px"
+			bottom: "50px"
 		});
 		// 判断：如果不是设定的默认子页索引，则隐藏
 		if(i != defaultIndex) {

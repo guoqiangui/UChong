@@ -1,9 +1,10 @@
 /* 顶部 */
 .top {
 	height: 120px;
-	background-color: #89C348;
+	background-color: #09B72E;
 	display: flex;
 	align-items: center;
+	position: relative;
 }
 /* 登录按钮 */
 .login-btn {
@@ -18,6 +19,12 @@
 	background: url(../images/default-icon.jpg);
 	background-size: cover;
 	margin-bottom: 5px;
+}
+.top .user-nickname {
+	position: absolute;
+	left: 70px;
+	top: 38px;
+	color: #fff;
 }
 .login-btn span {
 	border: 1px solid #fff;
@@ -38,7 +45,7 @@
 .menu li:nth-child(1) {
 	background-color: #ddd;
 	border-radius: 20px;
-	color: #89C348;
+	color: #09B72E;
 }
 .menu li i {
 	font-size: 25px;

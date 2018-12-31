@@ -1,0 +1,51 @@
+/* 推荐项包裹 */
+.recommend-items {
+	margin: 10px 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+/* 推荐项 */
+.recommend-item {
+	width: 44%;
+	height: 250px;
+	margin: 10px;
+	background-color: #fff;
+	border: 1px solid #aaa;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;		/* 改变主轴方向 */
+	justify-content: space-between;
+}
+.recommend-item h4 {
+	margin: 10px;
+}
+.recommend-item .recommend-author {
+	margin: 10px;
+	color: #666;
+}
+/* 视频 */
+.recommend-video .recommend-cover {
+	margin: 10px;
+	height: 60%;
+	background-image: url(../images/cover1.jpeg);
+	background-size: cover;		/* 始终覆盖满盒子 */
+}
+/* 文章 */
+.recommend-article {
+	position: relative;
+}
+.recommend-article .recommend-cover {
+	margin: 10px;
+	height: 60%;
+	background-image: url(../images/cover2.jpg);
+	background-size: cover;		/* 始终覆盖满盒子 */
+}
+.recommend-article .sign {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	font-size: 12px;
+	border: 1px solid #09B72E;
+	color: #09B72E;
+}

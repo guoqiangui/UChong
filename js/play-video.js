@@ -28,8 +28,20 @@ document.querySelector(".video-slider").addEventListener("slide", function (e) {
 	tabs[curIndex].classList.add("active");
 });
 
-// 点击相关视频项跳转到视频播放页
 mui.plusReady(function () {
+	// 获取url
+	var self = plus.webview.currentWebview();
+	document.querySelector("video").src = self.url;
+	// 获取昵称
+	document.querySelector(".video-author-nickname").innerHTML = self.nickname;
+	// 获取头像
+	document.querySelector(".video-author-icon").style.backgroundImage = "url(" + self.icon + ")";
+	// 获取粉丝
+	document.querySelector(".video-author-fans span").innerHTML = self.fansnum;
+	// 获取标题
+	document.querySelector(".video-summary h4").innerHTML = self.title;
+	
+	// 点击相关视频项跳转到视频播放页
 	mui(".video-related-videos").on("tap", ".related-videos-item", function () {
 		// extras可以页面传值，需要重新打开本页
 		mui.openWindow({

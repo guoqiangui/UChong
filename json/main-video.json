@@ -1,0 +1,38 @@
+{
+	"recommend": [
+		{
+			"author": {
+				"nickname": "大猫仙仙",
+				"url": "../images/icon1.jpg",
+				"fansNum": "1.1万"
+			},
+			"title": "战斗民族的宠物",
+			"url": "../videos/video1.3gp",
+			"cover": "../images/video1.jpg", 
+			"view": "1.1w", 
+			"comment": "500"
+		}, {
+			"author": {
+				"nickname": "我们都是宠物迷",
+				"url": "../images/icon4.jpg",
+				"fansNum": "2.1万"
+			},
+			"title": "宠物开锁了解一下？百分百空手直开",
+			"url": "../videos/video4.3gp",
+			"cover": "../images/video4.jpg", 
+			"view": "11w", 
+			"comment": "230"
+		}, {
+			"author": {
+				"nickname": "蓝水晶小皮皮",
+				"url": "../images/icon6.jpg",
+				"fansNum": "12.2万"
+			},
+			"title": "宠物成精",
+			"url": "../videos/video6.3gp",
+			"cover": "../images/video6.jpg", 
+			"view": "13w", 
+			"comment": "62"
+		} 
+	]
+}

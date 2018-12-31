@@ -1,0 +1,67 @@
+/* 排行项包裹 */
+.rank-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+/* 推荐项 */
+.rank-item {
+	width: 100%;
+	height: 200px;
+	background-color: #fff;
+	border-bottom: 1px solid #aaa;
+	display: flex;
+	flex-direction: column;		/* 改变主轴方向 */
+	justify-content: space-between;
+	position: relative;
+}
+.rank-item h4 {
+	margin: 10px;
+	position: absolute;
+	width: 50%;
+	right: 0px;
+	top: 0px;
+}
+.rank-item .rank-icon {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #aaa;
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	background: url(../images/default-icon.jpg);
+	background-size: cover;
+}
+.rank-item .rank-nickname {
+	margin: 10px;
+	color: #666;
+	position: absolute;
+	left: 60px;
+	bottom: 11px;
+}
+.rank-item .rank-score {
+	position: absolute;
+	top: 130px;
+	left: 48%;
+}
+.rank-item .rank-number {
+	padding: 5px;
+	width: 30px;
+	height: 25px;
+	background-color: #09B72E;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px;
+}
+
+/* 视频封面 */
+.rank-item .rank-cover {
+	margin: 10px;
+	height: 120px;
+	width: 40%;
+	background-image: url(../images/cover1.jpeg);
+	background-size: cover;		/* 始终覆盖满盒子 */
+}
