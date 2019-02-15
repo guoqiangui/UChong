@@ -41,6 +41,16 @@ mui.plusReady(function () {
 	// 获取标题
 	document.querySelector(".video-summary h4").innerHTML = self.title;
 	
+	// 获取相关视频数据
+	$(function () {
+		$.getJSON("../json/related-video.json", function (data) {
+			var resultStr = template("template", data);
+			// console.log(resultStr);
+			// console.log(document.querySelector(".video-related-videos"));
+			document.querySelector(".video-related-videos").innerHTML = resultStr;
+		});
+	});
+	
 	// 点击相关视频项跳转到视频播放页
 	mui(".video-related-videos").on("tap", ".related-videos-item", function () {
 		// extras可以页面传值，需要重新打开本页
@@ -49,7 +59,11 @@ mui.plusReady(function () {
 			id: "play-video.html", 
 			createNew: true, 
 			extras: {
-				
+				title: this.querySelector("h4").innerHTML,
+				url: this.dataset.url, 
+				nickname: this.dataset.nickname,
+				icon: this.dataset.icon,
+				fansnum: this.dataset.fansnum
 			},
 		});
 	});

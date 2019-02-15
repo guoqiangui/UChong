@@ -1,4 +1,9 @@
 mui.plusReady(function () {
+	$.getJSON("../json/main-video.json", function (data) {
+		var resultStr = template("template", data);
+		$(".recommend-items").append(resultStr);
+	});
+	
 	// 点击视频跳到视频页
 	mui(".recommend-items").on("tap", ".recommend-video", function () {
 		// extras可以页面传值，需要重新打开本页

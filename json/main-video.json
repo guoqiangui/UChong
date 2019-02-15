@@ -34,5 +34,52 @@
 			"view": "13w", 
 			"comment": "62"
 		} 
+	], 
+	"follow": [
+		{
+			"author": {
+				"nickname": "大雪球茄子",
+				"url": "../images/icon5.jpg",
+				"fansNum": "3.3万"
+			},
+			"title": "宠物大作战",
+			"url": "../videos/video5.3gp",
+			"cover": "../images/video5.jpg", 
+			"view": "5w", 
+			"comment": "250"
+		}, {
+			"author": {
+				"nickname": "丸子喵金",
+				"url": "../images/icon7.jpg",
+				"fansNum": "5.3万"
+			},
+			"title": "一条舔狗，舔到最后一无所有",
+			"url": "../videos/video7.3gp",
+			"cover": "../images/video7.jpg", 
+			"view": "31w", 
+			"comment": "620"
+		}, {
+			"author": {
+				"nickname": "Wingky",
+				"url": "../images/icon9.jpg",
+				"fansNum": "1.2万"
+			},
+			"title": "那些会说话的宠物们，都成精了",
+			"url": "../videos/video9.3gp",
+			"cover": "../images/video9.jpg", 
+			"view": "63w", 
+			"comment": "145"
+		}, {
+			"author": {
+				"nickname": "都胖七七",
+				"url": "../images/icon3.jpg",
+				"fansNum": "5.1万"
+			},
+			"title": "土包子喵星人大反击！",
+			"url": "../videos/video3.3gp",
+			"cover": "../images/video3.jpg", 
+			"view": "11w", 
+			"comment": "230"
+		}
 	]
 }

@@ -1,3 +1,11 @@
+// 复制多个专栏项
+var colItem = document.querySelector(".column-authors .column-author-item");
+for(var i=0;i<5;i++) {
+	// 深复制
+	var copy = colItem.cloneNode(true);
+	colItem.parentNode.appendChild(copy);
+}
+
 // 点击导航选项卡，就给当前选项卡添加active类
 var tabs = document.querySelectorAll(".top-nav li");
 for(var i=0 ; i<tabs.length ; i++) {

@@ -13,7 +13,7 @@
 	<body>
 		<div class="mui-content">
 			<!-- 推荐项 -->
-			<div class="recommend-items">
+			<div class="recommend-items mui-clearfix">
 				
 			</div>
 		</div>
@@ -21,7 +21,7 @@
 		
 		<script type="text/template" id="template1">
 			<%for(var i=0;i<recommend.length;i++) {%>
-				<div class="recommend-item recommend-video" data-url="<%=recommend[i].url%>" data-icon="<%=recommend[i].author.icon%>" data-fansnum="<%=recommend[i].author.fansnum%>">
+				<div class="recommend-item recommend-video" data-url="<%=recommend[i].url%>" data-icon="<%=recommend[i].author.url%>" data-fansnum="<%=recommend[i].author.fansNum%>">
 					<div class="recommend-cover" style="background-image: url(<%=recommend[i].cover%>);"></div>
 					<h4><%=recommend[i].title%></h4>
 					<div class="recommend-author"><%=recommend[i].author.nickname%></div>
@@ -44,6 +44,7 @@
 		</script>
 		<script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../js/template-native.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/common.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../js/main-recommend.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 

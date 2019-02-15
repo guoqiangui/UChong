@@ -1,15 +1,13 @@
 /* 推荐项包裹 */
 .recommend-items {
-	margin: 10px 15px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	width: 100%;
 }
 /* 推荐项 */
 .recommend-item {
-	width: 44%;
-	height: 250px;
-	margin: 10px;
+	width: 13.5rem;
+	height: 20rem;
+	float: left;
+	margin: 0.75rem;
 	background-color: #fff;
 	border: 1px solid #aaa;
 	border-radius: 10px;

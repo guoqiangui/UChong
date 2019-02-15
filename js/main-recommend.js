@@ -21,16 +21,11 @@ mui.plusReady(function () {
 			id: "play-video.html", 
 			createNew: true, 
 			extras: {
-				url: "play-video.html", 
-				id: "play-video.html", 
-				createNew: true, 
-				extras: {
-					title: this.querySelector(".recommend-video h4").innerHTML,
-					url: this.dataset.url, 
-					nickname: this.querySelector(".recommend-video .recommend-author").innerHTML,
-					icon: this.dataset.icon,
-					fansnum: this.dataset.fansnum
-				}
+				title: this.querySelector(".recommend-video h4").innerHTML,
+				url: this.dataset.url, 
+				nickname: this.querySelector(".recommend-video .recommend-author").innerHTML,
+				icon: this.dataset.icon,
+				fansnum: this.dataset.fansnum
 			},
 		});
 	});

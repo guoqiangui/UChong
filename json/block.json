@@ -2,12 +2,12 @@
 	"myBlock": [
 		{
 			"name": "猫猫",
-			"icon": "../images/cover2.jpg",
+			"icon": "../images/block-cat.jpg",
 			"post": "20w", 
 			"reply": "2500w"
 		}, {
 			"name": "狗狗", 
-			"icon": "../images/cover2.jpg",
+			"icon": "../images/block-dog.jpg",
 			"post": "23w", 
 			"reply": "2300w"
 		}
@@ -15,27 +15,27 @@
 	"petFamilyBlock": [
 		{
 			"name": "猫猫",
-			"icon": "../images/cover2.jpg",
+			"icon": "../images/block-cat.jpg",
 			"post": "20w", 
 			"reply": "2500w"
 		}, {
 			"name": "狗狗", 
-			"icon": "../images/cover2.jpg",
+			"icon": "../images/block-dog.jpg",
 			"post": "23w", 
 			"reply": "2300w"
 		}, {
 			"name": "小宠", 
-			"icon": "../images/cover2.jpg",
+			"icon": "../images/block-small.jpg",
 			"post": "3w", 
 			"reply": "30w"
 		}, {
 			"name": "水族", 
-			"icon": "../images/cover2.jpg",
+			"icon": "../images/block-fish.jpg",
 			"post": "5w", 
 			"reply": "48w"
 		}, {
 			"name": "爬虫", 
-			"icon": "../images/cover2.jpg",
+			"icon": "../images/block-crawl.jpg",
 			"post": "1w", 
 			"reply": "10w"
 		}
@@ -43,12 +43,12 @@
 	"multiple": [
 		{
 			"name": "灌水社区", 
-			"icon": "../images/cover2.jpg",
+			"icon": "../images/block-gs.gif",
 			"post": "2000", 
 			"reply": "2w"
 		}, {
 			"name": "站务管理", 
-			"icon": "../images/cover2.jpg",
+			"icon": "../images/block-manage.jpg",
 			"post": "500", 
 			"reply": "5000"
 		}
